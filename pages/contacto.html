@@ -10,8 +10,6 @@
     <link rel="stylesheet" href="../css/style.css">
 </head>
 
-<h1> Bienvenido a la Página 1</h1>
-
 <body>
     <header>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -49,21 +47,26 @@
         </div>
 
 
-        <form action="procesar_formulario.php" method="post">
-            <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" name="nombre" required>
-            <br>
+        <section class="formularito">
+            <form class="formulario col-4">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
 
-            <label for="email">Correo electrónico:</label>
-            <input type="email" id="email" name="email" required>
-            <br>
 
-            <label for="mensaje">Mensaje:</label>
-            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
-            <br>
+                <label>Correo electrónico:</label>
+                <input type="email" id="email" name="email" required>
 
-            <input type="submit" value="Enviar">
-        </form>
+
+                <label>Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+
+                <button type="button" class="btn btn-primary btn-lg">Enviar</button>
+            </form>
+            <div class="col-8" id="imagen-login">
+
+            </div>
+        </section>
     </main>
     <footer>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio harum mollitia itaque molestiae voluptatem enim facere reprehenderit vitae est aperiam, voluptas aliquid laborum aliquam expedita quibusdam esse, eligendi natus tenetur?</p>

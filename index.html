@@ -13,17 +13,15 @@
     <header>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
-
                 <a class="navbar-brand" href="./index.html"><img src="./img/logo.jpg" height="150px"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
+                    <span class="navbar-toggler-icon"></span>
+                </button>
                 <div class="collapse navbar-collapse navbar1" id="navbarNavDropdown">
                     <ul class="navbar-nav">
                         <li class="nav-item">
                             <a class="nav-link" href="./pages/noticias.html">Noticias</a>
                         </li>
-
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="./pages/imagenes.html">Imagenes</a>
                         </li>
@@ -33,39 +31,29 @@
                         <li class="nav-item">
                             <a class="nav-link" href="./pages/contacto.html">Contacto</a>
                         </li>
-
                     </ul>
                 </div>
             </div>
         </nav>
-
     </header>
-    <main>
-        <section>
-            <h2>Sección Principal</h2>
-            <p>Contenido principal de la página.</p>
-        </section>
-
-        <section class="general">
-            <h2>Otra sección</h2>
-            <img src=".//img/fondo3.jpg" alt="Descripción de la imagen" width="100%">
-            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate eaque fugit optio quam vero vitae voluptatibus maiores perferendis, libero eveniet quos. Placeat, saepe. Provident aperiam possimus, velit reprehenderit quod veniam.
-            </p>
-        </section>
+    <main class="container">
+        <div class="row">
+            <section class="col-12 col-md-6">
+                <h2>Sección Principal</h2>
+                <p>Contenido principal de la página.</p>
+            </section>
+            <section class="col-12 col-md-6 general">
+                <h2>Otra sección</h2>
+                <img src="./img/fondo3.jpg" alt="Descripción de la imagen" class="img-fluid">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate eaque fugit optio quam vero vitae voluptatibus maiores perferendis, libero eveniet quos. Placeat, saepe. Provident aperiam possimus, velit reprehenderit quod veniam.</p>
+            </section>
+        </div>
     </main>
-    <footer>
+    <footer class="text-center mt-4">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio harum mollitia itaque molestiae voluptatem enim facere reprehenderit vitae est aperiam, voluptas aliquid laborum aliquam expedita quibusdam esse, eligendi natus tenetur?</p>
-
-
     </footer>
-
-
-    <div class="iframe">
-
-        <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=-0.004017949104309083%2C51.47612752641776%2C0.00030577182769775396%2C51.478569861898606&layer=mapnik" width="100%">
-        
-             </iframe>
-
+    <div class="iframe mt-4">
+        <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=-0.004017949104309083%2C51.47612752641776%2C0.00030577182769775396%2C51.478569861898606&layer=mapnik" width="100%" height="400"></iframe>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
